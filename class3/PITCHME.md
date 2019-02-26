@@ -31,10 +31,13 @@ This class implements our interface.
 ---?code=class3/src/HelloKitty.java&lang=java
 So does this class. 
 
+
+
 ---
+### Interfaces
 + Write an interface in its own file, like a class.
 + The `@Override` is optional, **but use it**.
-  + If the method signature is not exactly the same as in the interface, you will get a warning.
+  + If the method signature is not exactly the same as in the interface, it will give you a warning.
 + It indeed separates the interface from the implementation.
 + Good for specifying requirements.
 + What more?
