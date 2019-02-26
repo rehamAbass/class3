@@ -15,8 +15,7 @@
 
 
 ---
-+ An `Interface` contains method **signatures** without implementation.
-+ It defines a contract that an **implementing** class must fulfill.
+An `Interface` contains method **signatures** without implementation.
 ```java
 public interface HelloInterface {
 	public void hello();
@@ -41,3 +40,7 @@ public class HelloKitty implements HelloInterface {
 	}
 }
 ```
+
+
+---
+It defines a contract that an **implementing** class must fulfill.
