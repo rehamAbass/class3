@@ -21,7 +21,10 @@ public interface HelloInterface {
 	public void hello();
 }
 ```
+It defines a contract that an **implementing** class must fulfill.
 
+
+---
 ```java
 public class HelloWorld implements HelloInterface {
 	@Override
@@ -43,4 +46,3 @@ public class HelloKitty implements HelloInterface {
 
 
 ---
-It defines a contract that an **implementing** class must fulfill.
