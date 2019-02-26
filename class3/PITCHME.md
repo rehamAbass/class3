@@ -24,34 +24,12 @@ public interface HelloInterface {
 It defines a contract that an **implementing** class must fulfill.
 
 
----
+---?code=class3/src/HelloWorld.java&lang=java
+This class implements our interface. 
 
-```java
-public class HelloWorld implements HelloInterface {
-	@Override
-	public void hello() {
-		System.out.println("Hello World!");
-	}
-	@Override
-	public void goodBye() {
-		System.out.println("Goodbye Everyone!");
-	}
-}
-```
 
-```java
-public class HelloKitty implements HelloInterface {
-	@Override
-	public void hello() {
-		System.out.println("Hello Kitty!");	
-	}
-	@Override
-	public void goodBye() {
-		System.out.println("Miao...");	
-	}
-}
-```
-
+---?code=class3/src/HelloKitty.java&lang=java
+So does this class. 
 
 ---
 + Write an interface in its own file, like a class.
