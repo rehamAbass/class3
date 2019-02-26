@@ -9,7 +9,7 @@ public class HelloKitty implements HelloInterface {
 		System.out.println("Hello Kitty!");	
 	}
 	@Override
-	public void goodBye() {
+	public void goodbye() {
 		System.out.println("Miao...");	
 	}
 }

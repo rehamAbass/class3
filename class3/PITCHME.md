@@ -49,6 +49,12 @@ This is more dramatic then it seems.
 ```java
 HelloInterface h = new HelloWorld();
 h.hello();
+h.goodbye()
 ```
-+ A variable of type `HelloInterface` can hold the pointer to object of an implementing class.
++ A variable of type `HelloInterface` can hold the pointer to an instance of any implementing class.
 + The only thing you can do with such a variable is call the methods of the interface. 
+
+
+---
+So this is new:
+@box[bg-orange text-white rounded demo-box-pad](A variable of type X may actually hold an object of type Y.)

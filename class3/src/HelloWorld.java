@@ -6,7 +6,7 @@ public class HelloWorld implements HelloInterface {
 	}
 	
 	@Override
-	public void goodBye() {
+	public void goodbye() {
 		System.out.println("Goodbye Everyone!");
 	}
 }

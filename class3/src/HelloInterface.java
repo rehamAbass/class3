@@ -1,4 +1,4 @@
 public interface HelloInterface {
 	public void hello();
-	public void goodBye();
+	public void goodbye();
 }
