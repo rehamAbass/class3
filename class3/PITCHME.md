@@ -1,7 +1,6 @@
-# Interfaces
+# Inheritance
 
-## Support for Abstraction
-
+## X is a Y
 
 
 ---
@@ -15,21 +14,20 @@
 
 
 ---
-An `interface` contains method **signatures** without implementation.
-```java
-public interface HelloInterface {
-	public void hello();
-}
-```
-It defines a contract that an **implementing** class must fulfill.
+We can extend an existing classes by defining a **sub-class**.
++ It inherits all of the code and variables of the original class.
++ We can add more.
++ We can also **override** methods.
 
 
----?code=class3/src/HelloWorld.java&lang=java
-This class implements our interface. 
+---?code=class3/src/Bicycle.java&lang=java
+A simple class.
 
 
----?code=class3/src/HelloKitty.java&lang=java
-So does this class. 
+---?code=class3/src/MountainBike.java&lang=java
+We can think of a `MountainBike` object as having a 
+`Bicycle` object within it. 
+
 
 
 
@@ -56,5 +54,14 @@ h.goodbye()
 
 
 ---
-So this is new:
-@box[](A variable of type X may actually hold an object of type Y)
+
+
+
+
+---
+Here its all pretty simple.
+In subclasses, when calling a method it is more confusing.
+
+MMM. If we teach interfaces first, we cannot use toString, and all the objects methods.
+Also, the compareTo example won't work, because we need to compare to each other...
+but size() does...
