@@ -22,6 +22,7 @@ public interface HelloInterface {
 	public void hello();
 }
 ```
+
 ```java
 public class HelloWorld implements HelloInterface {
 	@Override
@@ -31,6 +32,7 @@ public class HelloWorld implements HelloInterface {
 }
 
 ```
+
 ```java
 public class HelloKitty implements HelloInterface {
 	@Override
