@@ -32,7 +32,15 @@ We can think of a `MountainBike` object as having a
 `Bicycle` object within it. 
 
 
+---?code=class3/src/MainForMountainBike.java&lang=java
+It works!
 
-
+---
++ `private` members are not inherited!
+  + MountainBike cannot access `speed` directly.
+  + So it uses the public method `getSpeed` of `Bicycle`.
++ Constructors are not inherited.
+  + `super` let's us call the constructor of the super class.
+  + must appear as the first line!
 
 

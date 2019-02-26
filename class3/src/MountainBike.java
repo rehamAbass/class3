@@ -5,7 +5,7 @@ public class MountainBike extends Bicycle {
 		this.seatHeight = seatHeight;
 	}
 	public String toString() {
-		return String.format("Speed = %d, seat = %f", 
+		return String.format("Speed = %d, seat = %.2f", 
 				getSpeed(), seatHeight);
 	}
 }
