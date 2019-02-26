@@ -57,4 +57,4 @@ h.goodbye()
 
 ---
 So this is new:
-@box[bg-orange text-white rounded demo-box-pad](A variable of type X may actually hold an object of type Y.)
+@box[bg-orange text-white rounded](A variable of type X may actually hold an object of type Y)
