@@ -3,4 +3,8 @@ public class HelloWorld implements HelloInterface {
 	public void hello() {
 		System.out.println("Hello World!");
 	}
+	@Override
+	public void goodBye() {
+		System.out.println("Goodbye Everyone!");
+	}
 }

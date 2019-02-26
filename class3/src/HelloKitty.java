@@ -3,4 +3,8 @@ public class HelloKitty implements HelloInterface {
 	public void hello() {
 		System.out.println("Hello Kitty!");	
 	}
+	@Override
+	public void goodBye() {
+		System.out.println("Miao...");	
+	}
 }
