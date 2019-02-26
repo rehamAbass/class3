@@ -38,6 +38,17 @@ So does this class.
 + Write an interface in its own file, like a class.
 + The `@Override` is optional, **but use it**.
   + If the method signature is not exactly the same as in the interface, it will give you a warning.
-+ It indeed separates the interface from the implementation.
++ Interfaces indeed separate the interface from the implementation.
 + Good for specifying requirements.
 + What more?
+
+
+---
+### Can be used as a Variable Type
+This is more dramatic then it seems.
+```java
+HelloInterface h = new HelloWorld();
+h.hello();
+```
++ A variable of type `HelloInterface` can hold the pointer to object of an implementing class.
++ The only thing you can do with such a variable is call the methods of the interface. 
