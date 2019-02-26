@@ -1,7 +1,7 @@
 
 # Look-and-Feel
 theme : beige
-theme-override : class2/PITCHME.css
+theme-override : class3/PITCHME.css
 highlight : agate
 
 
