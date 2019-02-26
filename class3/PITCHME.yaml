@@ -1,0 +1,15 @@
+
+# Look-and-Feel
+theme : beige
+theme-override : class2/PITCHME.css
+highlight : agate
+
+
+# Behavior
+transition : none
+published : true
+
+# Plugins
+# charts : true
+# mathjax : TeX-AMS_HTML-full
+
