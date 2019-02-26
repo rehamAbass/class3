@@ -37,7 +37,7 @@ It works!
 
 
 ---
-+ `private` members are not inherited!
++ private members are not inherited!
   + MountainBike cannot access `speed` directly.
   + So it uses the public method `getSpeed` of `Bicycle`.
 + Constructors are not inherited.

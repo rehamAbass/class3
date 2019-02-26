@@ -8,8 +8,11 @@ public class Employee {
 		this.id = id;
 		this.salary = salary;
 	}
-	
+	public int earns() {
+		return salary;
+	}
 	public String toString() {
-		return String.format("%s(%d) Earns %d", id, salary);
+		return String.format("%s(%d) Earns %d", 
+				name, id, earns());
 	}
 }
