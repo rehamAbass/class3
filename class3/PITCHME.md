@@ -93,9 +93,9 @@ System.out.println(e);
 
 ---
 + Even though we used the original `toString()`, it calls the new `earnsInYear()`.
-+ So the answer is 1300 and 1200.
++ So the answer is 1300 and not 1200.
 
-@box[rounded](Think of the subclass as taking all the code and rewriting some of the methods)
+@box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
 *Except private members cannot be accessed in new code*
 
