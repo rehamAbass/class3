@@ -91,6 +91,13 @@ e.setSales(1000);
 System.out.println(e);
 ```
 
+---
++ Even though we used the original `toString()`, it calls the new `earnsInYear()`.
++ So the answer is 1300 and 1200.
+
+@box[rounded](Think of the subclass as taking all the code and rewriting some of the methods)
+
+*Except private members cannot be accessed in new code*
 
 
 ---
