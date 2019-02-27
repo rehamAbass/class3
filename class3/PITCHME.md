@@ -85,7 +85,8 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 ---
 What will this print?
 ```java
-CommissionEmployee e = new CommissionEmployee("Greg", 100, 0.1);
+CommissionEmployee e = 
+	new CommissionEmployee("Greg", 100, 0.1);
 e.setSales(1000);
 System.out.println(e);
 ```
