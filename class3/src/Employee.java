@@ -1,16 +1,19 @@
 public class Employee {
 	private String name;
-	private int salary;
+	private int monthlySalary;
 	
-	public Employee(String name, int salary) {
+	public Employee(String name, int monthlySalary) {
 		this.name = name;
-		this.salary = salary;
+		this.monthlySalary = monthlySalary;
 	}
-	public double earnings() {
-		return salary;
+	public double getMonthlySalary() { 
+		return monthlySalary; 
+	}
+	public double earnsInYear() {
+		return monthlySalary * 12;
 	}
 	public String toString() {
 		return String.format("%s Earns %d", 
-				name, earnings());
+				name, earnsInYear());
 	}
 }

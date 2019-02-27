@@ -55,9 +55,10 @@ It works!
 
 
 ---?code=class3/src/Employee.java&lang=java
+Another example.
 
-
-
+---?code=class3/src/CommissionEmployee.java&lang=java
+Use `super` to call a constructor of the superclass. Override a method, and call the original
 
 ---
 ### Constructors
