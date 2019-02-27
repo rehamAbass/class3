@@ -69,7 +69,7 @@ Another example.
 
 
 ---
-To access to overridden method (the original one), we can use the `super` keyword.
+To access the overridden method (the original one), use the `super` keyword.
 For example: 
 ```java
 @Override 
@@ -77,7 +77,7 @@ public double earnsInYear() {
 	return commission * sales + super.earnsInYear();
 }
 ```
-There is no direct way to access the "grandfather"..
+There is no direct way to access the ''grandfather''...
 
 
 ---
