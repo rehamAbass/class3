@@ -1,13 +1,22 @@
 
 # Look-and-Feel
-theme : beige
-theme-override : class3/PITCHME.css
-highlight : agate
+
+theme : white
+theme-override : class1/PITCHMEprint.css
+highlight : XXX
+ 
+# theme : beige
+# theme-override : class1/PITCHME.css
+# highlight : agate
+ 
+
 
 
 # Behavior
 transition : none
 published : true
+print-fragments : true
+
 
 # Plugins
 # charts : true

@@ -1,0 +1,35 @@
+code {
+	color:black;
+}
+
+
+.hljs {
+ 	font-size: 120% !important;
+}
+
+span .hljs-comment {
+	font-style: italic !important;
+	color:gray;
+}
+
+span .hljs-symbol {
+	font-weight: bold !important;
+}
+
+span .hljs-meta {
+    font-style: italic !important;
+}
+
+span .hljs-title {
+	font-weight: bold !important;
+}
+
+.reveal blockquote {
+	background: rgba(255,0,0, 0.1);
+}
+
+#boxed-text-box {
+	background: rgba(255,0,0, 0.1);	
+}
+
+
