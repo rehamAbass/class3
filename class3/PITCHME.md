@@ -59,7 +59,7 @@ Another example.
 
 ---?code=class3/src/CommissionEmployee.java&lang=java
 @[1-13](Use `super` to call a constructor of the superclass.) 
-@[15-19] Overriding a method.
+@[15-20] Overriding a method.
 
 ---
 ### Constructors
