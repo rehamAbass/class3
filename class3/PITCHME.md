@@ -14,7 +14,7 @@
 
 
 
----?image=class3/umlExample.png
+---?image=class3/umlExample.png&size=50%
 
 
 ---
