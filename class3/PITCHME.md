@@ -46,25 +46,25 @@ It works!
 ---
 + Private members of the superclass cannot be accessed!
   + `MountainBike` cannot access `speed` directly.
-  + So it uses the public method `getSpeed` of `Bicycle`.
-+ A subclass can directly access and use methods and variables according to::
+  + So it uses the public `getSpeed` of `Bicycle`.
++ A subclass can directly access the superclass members:
   + `private` cannot be accessed at all.
   + `public` and `protected` can.
   + default (package-private), can be accessed if the subclass is in 
   the same package as the superclass. 
 
 
-
 ---
-+ Constructors are not inherited.
-  + `super` lets us call the constructor of the superclass.
-  + Must appear as the first line in a new constructor!
+### Constructors
++ Constructors of the superclass are not constructors of the subclass.
+  + `super(...)` calls a constructor of the superclass.
+  + Must appear as the **first line** in the constructor!
 + If no `super` constructor call, then java invisibly adds `super()` 
 as a first line.
   + unless first line is a `this` constructor call...
   
 ---
-Question:
+### Example:
 ```java
 public class Building {
     Building() { System.out.print("b "); }
