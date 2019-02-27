@@ -72,7 +72,8 @@ public class Building {
 		this(); 
 		System.out.print("bn " + name);
     }
-}
+}```
+```java
 public class House extends Building {
 	House() { System.out.print("h "); }
 	House(String name) {
