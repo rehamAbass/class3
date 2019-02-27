@@ -90,6 +90,8 @@ CommissionEmployee e =
 e.setSales(1000);
 System.out.println(e);
 ```
+@css[fragment](1300)
+
 
 ---
 + Even though we used the original `toString()`, it calls the new `earnsInYear()`.
@@ -97,7 +99,8 @@ System.out.println(e);
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
-*Except private members cannot be accessed in new code*
+*Except private members cannot be accessed in new code...*
+
 
 
 ---
