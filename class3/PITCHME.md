@@ -77,7 +77,7 @@ public double earnsInYear() {
 	return commission * sales + super.earnsInYear();
 }
 ```
-There is no direct way to access the ''grandfather''...
+There is no direct way to access the ''grandmother'', `super.super` does not work.
 
 
 ---
