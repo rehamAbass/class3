@@ -51,6 +51,7 @@ span .hljs-params {
 
 #boxed-text-box {
 	background: rgba(255,0,0, 0.1);	
+	font-size: 120% !important;
 }
 
 

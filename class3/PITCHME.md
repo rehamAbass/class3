@@ -44,13 +44,15 @@ It works!
 
 
 ---
-@box[](Why does `MountainBike` use `getSpeed()` and not directly use`speed`?.)
+@box[rounded](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
 
 + Recall the access rules for class members:
   + `public`:  from anywhere.
   + `private`: only from within the class.
   + default (package-private): from anywhere within the same package
   + `protected`: like default, plus subclasses from other packages as well.
+
+
 
 ---
 ### Constructors
