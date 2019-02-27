@@ -65,18 +65,25 @@ Another example.
 ---
 ## Overriding Methods
 + The way to change the behavior inherited from the superclass.
-+ 
++ use the `@Override`...
 
 
 ---
-Can actually write, 
+To access to overridden method (the original one), we can use the `super` keyword.
+For example: 
 ```java
 @Override 
 public double earnsInYear() {
 	return commission * sales + super.earnsInYear();
 }
-
 ```
+There is no direct way to access the "grandfather"..
+
+
+---
+
+
+
 
 ---
 ### Constructors
