@@ -1,5 +1,5 @@
 public class Bicycle {
-    public int speed;
+    private int speed;
         
     public void applyBrake(int decrement) {
         speed -= decrement;
