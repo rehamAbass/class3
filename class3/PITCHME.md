@@ -14,7 +14,8 @@
 
 
 
----?img=class3/umlExample.png
+---?image=class3/umlExample.png
+
 
 ---
 ### Subclasses
