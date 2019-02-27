@@ -53,7 +53,6 @@ It works!
   + default (package-private), from anywhere within the same package
   + `protected` like default, plus subclasses from other packages as well.
 
-
 ---
 ### Constructors
 + Constructors of the superclass are not constructors of the subclass.
