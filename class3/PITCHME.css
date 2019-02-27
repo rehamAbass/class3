@@ -1,17 +1,11 @@
+@import url("PITCHMEbase.css");
+
 code {
 	color:#af1414;
 }
 
-/*
-.reveal div {
-	font-size: 90%;
-}
-*/
-
-
 .hljs {
 	background: black;
-	font-size: 120% !important;
 }
 
 .hljs-number {
@@ -28,17 +22,11 @@ code {
 
 span .hljs-symbol {
 	color: #ffa080;
-	font-weight: bold !important;
 }
 
 
 span .hljs-meta {
     color: #a0a0a0;
-    font-style: italic !important;
-}
-
-span .hljs-title {
-	font-weight: bold !important;
 }
 
 span .hljs-params {
