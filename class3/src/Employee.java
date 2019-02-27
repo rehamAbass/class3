@@ -1,18 +1,16 @@
 public class Employee {
 	private String name;
-	private long id;
 	private int salary;
 	
-	public Employee(String name, long id, int salary) {
+	public Employee(String name, int salary) {
 		this.name = name;
-		this.id = id;
 		this.salary = salary;
 	}
 	public double earnings() {
 		return salary;
 	}
 	public String toString() {
-		return String.format("%s(%d) Earns %d", 
-				name, id, earnings());
+		return String.format("%s Earns %d", 
+				name, earnings());
 	}
 }
