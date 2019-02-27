@@ -16,7 +16,7 @@
 
 ---
 ![](class3/umlExample.png)
-
+A sample UML diagram demonstrating inheritance.
 
 ---
 ### Subclasses
