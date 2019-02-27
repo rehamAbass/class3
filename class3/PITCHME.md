@@ -51,13 +51,37 @@ It works!
   + `private` cannot be accessed at all.
   + `public` and `protected` can.
   + default (package-private), can be accessed if the subclass is in 
-  the same package as the original. 
+  the same package as the superclass. 
+
+
 
 ---
 + Constructors are not inherited.
   + `super` lets us call the constructor of the superclass.
   + Must appear as the first line in a new constructor!
-
++ If no `super` constructor call, then java invisibly adds `super()` 
+as a first line.
+  + unless first line is a `this` constructor call...
+  
+---
+Question:
+```java
+public class Building {
+    Building() { System.out.print("b "); }
+    Building(String name) {
+		this(); 
+		System.out.print("bn " + name);
+    }
+}
+public class House extends Building {
+	House() { System.out.print("h "); }
+	House(String name) {
+		this(); 
+	 	System.out.print("hn " + name);
+ 	}
+}
+```
+What will `new House("x ")` print?
 
 ---?code=class3/src/Employee.java&lang=java
 
