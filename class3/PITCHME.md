@@ -46,11 +46,16 @@ It works!
 ---
 @box[rounded](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
 
-+ Recall the access rules for class members:
++ Recall the access rules for class members,
   + `public`:  from anywhere.
   + `private`: only from within the class.
-  + default (package-private): from anywhere within the same package
-  + `protected`: like default, plus subclasses from other packages as well.
+  + default (package-private): from anywhere within the same package.
+  + `protected`: like default, and from subclasses of other packages as well.
+
+
+
+---?code=class3/src/Employee.java&lang=java
+
 
 
 
@@ -83,8 +88,6 @@ public class House extends Building {
 }
 ```
 What will `new House("x ")` print?
-
----?code=class3/src/Employee.java&lang=java
 
 
 
