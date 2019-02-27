@@ -4,6 +4,10 @@
 }
 */
 
+.hljs {
+	font-size: 120% !important;
+}
+
 span .hljs-symbol {
 	font-weight: bold !important;
 }
@@ -24,5 +28,3 @@ span .hljs-title {
 	background: rgba(255,0,0, 0.1);	
 	font-size: 180% !important;
 }
-
-
