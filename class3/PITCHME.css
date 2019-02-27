@@ -1,5 +1,35 @@
-@import "class3/css/PITCHMEbase.css";
+/* Common stuff */
 
+.hljs {
+	font-size: 120% !important;
+}
+
+span .hljs-symbol {
+	font-weight: bold !important;
+}
+
+span .hljs-meta {
+    font-style: italic !important;
+}
+
+span .hljs-title {
+	font-weight: bold !important;
+}
+
+#boxed-text-box {
+	font-size: 120% !important
+}
+
+
+/*
+.reveal div {
+	font-size: 90%;
+}
+*/
+
+
+
+/* Specifics  */
 code {
 	color:#af1414;
 }
@@ -30,7 +60,6 @@ span .hljs-params {
 }
 
 
-/*
 .reveal blockquote {
 	background: rgba(255,0,0, 0.1);
 }
@@ -38,5 +67,4 @@ span .hljs-params {
 #boxed-text-box {
 	background: rgba(255,0,0, 0.1);	
 }
-*/
 
