@@ -44,14 +44,13 @@ It works!
 
 
 ---
-+ Private members of the superclass cannot be accessed!
-  + `MountainBike` cannot access `speed` directly.
-  + So it uses the public `getSpeed` of `Bicycle`.
+@box[](Why does `MountainBike` use `getSpeed()` and not directly use`speed`?.)
+
 + Recall the access rules for class members:
-  + `public`  from anywhere.
-  + `private` only from within the class.
-  + default (package-private), from anywhere within the same package
-  + `protected` like default, plus subclasses from other packages as well.
+  + `public`:  from anywhere.
+  + `private`: only from within the class.
+  + default (package-private): from anywhere within the same package
+  + `protected`: like default, plus subclasses from other packages as well.
 
 ---
 ### Constructors
