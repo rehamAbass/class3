@@ -15,7 +15,7 @@
 
 
 ---
-![](class3/umlExample.png&size=50%)
+![](class3/umlExample.png)
 
 
 ---
