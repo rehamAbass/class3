@@ -47,11 +47,11 @@ It works!
 + Private members of the superclass cannot be accessed!
   + `MountainBike` cannot access `speed` directly.
   + So it uses the public `getSpeed` of `Bicycle`.
-+ A subclass can directly access the superclass members:
-  + `private` cannot be accessed at all.
-  + `public` and `protected` can.
-  + default (package-private), can be accessed if the subclass is in 
-  the same package as the superclass. 
++ Recall the access rules for class members:
+  + `public`  from anywhere.
+  + `private` only from within the class.
+  + default (package-private), from anywhere within the same package
+  + `protected` like default, plus subclasses from other packages as well.
 
 
 ---
