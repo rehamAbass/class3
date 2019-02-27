@@ -69,6 +69,16 @@ Another example.
 
 
 ---
+Can actually write, 
+```java
+@Override 
+public double earnsInYear() {
+	return commission * sales + super.earnsInYear();
+}
+
+```
+
+---
 ### Constructors
 + Constructors of the superclass are not constructors of the subclass.
   + `super(...)` calls a constructor of the superclass.
