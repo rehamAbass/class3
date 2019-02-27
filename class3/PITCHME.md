@@ -57,6 +57,8 @@ It works!
 ---?code=class3/src/Employee.java&lang=java
 Another example.
 
+
+
 ---?code=class3/src/CommissionEmployee.java&lang=java
 @[1-13](Use `super` to call a constructor of the superclass.) 
 @[15-19](Overriding a method.)
@@ -81,8 +83,11 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 
 
 ---
-
-
+What will this print?
+```java
+CommissionEmployee e = new CommissionEmployee();
+System.out.println(e);
+```
 
 
 ---
