@@ -13,10 +13,13 @@
 + 
 
 
+
+---?img=class3/umlExample.png
+
 ---
 ### Subclasses
-+ We can extend an existing class by defining a subclass
-  + also called *derived* class.
++ We can extend an existing class by defining a subclass.
+  + also called a *derived* class.
 + It inherits all of the code and variables of the original class.
 + Can add more.
 + Can also **override** methods.
