@@ -1,13 +1,13 @@
 
 # Look-and-Feel
 
-theme : white
-theme-override : class1/PITCHMEprint.css
-highlight : XXX
+# theme : white
+# theme-override : class1/PITCHMEprint.css
+# highlight : XXX
  
-# theme : beige
-# theme-override : class1/PITCHME.css
-# highlight : agate
+theme : beige
+theme-override : class1/PITCHME.css
+highlight : agate
  
 
 
