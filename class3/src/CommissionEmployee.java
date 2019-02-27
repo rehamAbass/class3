@@ -2,8 +2,8 @@ public class CommissionEmployee extends Employee {
 	private double commission; // between 0 and 1
 	private double sales;
 	
-	public CommissionEmployee(String name, long id, 
-			int salary, double commission) {
+	public CommissionEmployee(String name, int salary, 
+			double commission) {
 		super(name, salary);
 		this.commission = commission;
 	}
