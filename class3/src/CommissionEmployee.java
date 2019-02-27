@@ -14,6 +14,7 @@ public class CommissionEmployee extends Employee {
 	
 	@Override 
 	public double earnsInYear() {
-		return commission * sales + 12 * getMonthlySalary();
+		return commission * sales +
+				12 * getMonthlySalary();
 	}
 }
