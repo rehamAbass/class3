@@ -58,7 +58,8 @@ It works!
 Another example.
 
 ---?code=class3/src/CommissionEmployee.java&lang=java
-Use `super` to call a constructor of the superclass. Override a method, and call the original
+@[1-13](Use `super` to call a constructor of the superclass.) 
+@[15-18] Overriding a method.
 
 ---
 ### Constructors
