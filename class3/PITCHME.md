@@ -44,12 +44,19 @@ It works!
 
 
 ---
-+ private members are not inherited!
-  + MountainBike cannot access `speed` directly.
++ Private members of the superclass cannot be accessed!
+  + `MountainBike` cannot access `speed` directly.
   + So it uses the public method `getSpeed` of `Bicycle`.
++ A subclass can directly access and use methods and variables according to::
+  + `private` cannot be accessed at all.
+  + `public` and `protected` can.
+  + default (package-private), can be accessed if the subclass is in 
+  the same package as the original. 
+
+---
 + Constructors are not inherited.
   + `super` lets us call the constructor of the superclass.
-  + Must appear as the first line!
+  + Must appear as the first line in a new constructor!
 
 
 ---?code=class3/src/Employee.java&lang=java
