@@ -34,13 +34,13 @@ A simple class.
 
 
 ---?code=class3/src/MountainBike.java&lang=java
-We can think of `MountainBike` as having all the code of  
-`Bicycle` for free.
+We can think of `MountainBike` as having all the code of `Bicycle` for free.
 
 
 ---?code=class3/src/MainForMountainBike.java&lang=java
 It works!
-@box[fragment transparent](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
+
+But Why does `MountainBike` use `getSpeed()` and not directly use `speed`?
 
 
 
