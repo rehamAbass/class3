@@ -162,9 +162,10 @@ What will `new House("x ")` print?
 # Object
 Every class is a subclass of the java class `Object`. 
 + No need to write `extends Object`.
-+ So, every class has 'Object's methods.
-  + `String toString()`, writes \<Class name\>@\<id\>.
++ So, every class inherits all of Object's methods.
+  + `String toString()`, writes ClassName@id.
   + `boolean equals(Object obj)`, checks if `this == obj`.
-  + `Class getClass()`,
-
+  + `Class getClass()`, returns an instance of the Class of the object.
+    + `x.getClass().getName()` returns the name of `x`'s class.
+  + more..
 
