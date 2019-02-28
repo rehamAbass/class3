@@ -16,7 +16,7 @@
 ---
 ![](class3/umlExample.png)
 
-A example of a UML diagram demonstrating inheritance.
+A UML diagram demonstrating inheritance.
 
 
 ---
@@ -34,8 +34,8 @@ A simple class.
 
 
 ---?code=class3/src/MountainBike.java&lang=java
-We can think of a `MountainBike` object as having a 
-`Bicycle` object within it. 
+We can think of `MountainBike` as having all the code of  
+`Bicycle` for free.
 
 
 ---?code=class3/src/MainForMountainBike.java&lang=java
