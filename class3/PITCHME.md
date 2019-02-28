@@ -40,7 +40,7 @@ We can think of `MountainBike` as having all the code of
 
 ---?code=class3/src/MainForMountainBike.java&lang=java
 It works!
-@text[fragment](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
+@css[fragment](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
 
 
 ---
