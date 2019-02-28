@@ -82,6 +82,8 @@ public double earnsInYear() {
 There is no direct way to access the ''grandmother'', `super.super` does not work.
 
 
+
+
 ---
 What will this print?
 ```java
@@ -90,12 +92,11 @@ CommissionEmployee e =
 e.setSales(1000);
 System.out.println(e);
 ```
-@css[fragment](1300)
+@css[fragment](1300, because
+The superclass's `toString()`, calls the subclass's `earnsInYear()`).
 
 
 ---
-+ Even though we used the original `toString()`, it calls the new `earnsInYear()`.
-+ So the answer is 1300 and not 1200.
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
@@ -111,6 +112,7 @@ System.out.println(e);
 + If no `super` constructor call, then java invisibly adds `super()` 
 as a first line.
   + unless first line is a `this` constructor call...
+  
   
 ---
 ### Example:
