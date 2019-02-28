@@ -55,9 +55,7 @@ Recall the access rules for class members,
 
 
 ---?code=class3/src/Employee.java&lang=java
-@[1-14](A simple `Employee` class.)
-@[15-18](Notice that `toString` calls `earnsInYear`. This will be important later...)
-
+A simple `Employee` class.
 
 ---
 ### `CommissionEmployee`
