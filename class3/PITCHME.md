@@ -82,7 +82,9 @@ CommissionEmployee e =
 e.setSales(1000);
 System.out.println(e);
 ```
-@css[fragment](1300)
+Remember that `toString` is from `Employee`, and was not overridden..
+
+@css[fragment](Answer = 1300)
 
 
 ---
