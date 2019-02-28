@@ -1,6 +1,6 @@
 # Inheritance
 
-## X is a Y
+## Sub & Super
 
 
 ---
