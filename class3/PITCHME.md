@@ -39,18 +39,18 @@ We can think of `MountainBike` as having all the code of
 
 
 ---?code=class3/src/MainForMountainBike.java&lang=java
-It works!
+@box[rounded fragment](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
 
 
 ---
-@box[rounded](Why does `MountainBike` use `getSpeed()` and not directly use `speed`?)
+private members of the superclass are **hidden** in the subclass.
 
-+ Recall the access rules for class members,
-  + `public`:  from anywhere.
-  + `private`: only from within the class.
-  + default (package-private): from anywhere within the same package.
-  + `protected`: like default, and from subclasses of other packages as well.
-    + Best for letting subclasses access. 
+Recall the access rules for class members,
++ `public`:  from anywhere.
++ `private`: only from within the class.
++ default (package-private): from anywhere within the same package.
++ `protected`: like default, and from subclasses of other packages as well.
+  + Best for letting subclasses access. 
 
 
 ---?code=class3/src/Employee.java&lang=java
