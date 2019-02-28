@@ -50,7 +50,7 @@ It works!
   + `private`: only from within the class.
   + default (package-private): from anywhere within the same package.
   + `protected`: like default, and from subclasses of other packages as well.
-
+    + Best for allowing subclasses access. 
 
 
 ---?code=class3/src/Employee.java&lang=java
