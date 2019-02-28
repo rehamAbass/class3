@@ -60,7 +60,7 @@ Notice that `monthlySalary` is protected.
 
 ---
 ### `CommissionEmployee`
-+ Gets a monthly salary (like `Employee`).
++ Gets a monthly salary (like `Employee`),
 + and a **commission** on his sales.
   + If he sold for *x* dollars, and his commission is *p*, then 
     he gets an extra *xp* dollars.
@@ -102,17 +102,11 @@ The way to change the behavior inherited from the superclass.
 + The `@Override` decorator is optional,
   + If the **signature** of the method does not match any method from 
     the superclass it gives a warning.
-  + **So use it!**
-
-
-
-
-
-
-
+  + So use it!
 
 
 ---
+## `super`
 To access the overridden method (the original one), use the `super` keyword.
 For example: 
 ```java
