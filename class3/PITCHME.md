@@ -60,13 +60,14 @@ It works!
 
 ---
 ### `CommisionEmployee`
-An employee that 
 + Gets a monthly salary (like `Employee`).
 + and a **commission** on his sales.
   + If he sold for *x* dollars, and his commission is *p*, then 
     he gets an extra *xp* dollars.
 
 We can write a new class, but its will duplicate a lot of code.
+
+
 
 ---?code=class3/src/CommissionEmployee.java&lang=java
 @[1-13](Use `super` to call a constructor of the superclass.) 
