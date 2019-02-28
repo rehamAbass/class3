@@ -1,7 +1,6 @@
 # Inheritance
 
-## Sub & Super
-
+## sub & super classes
 
 ---
 ## Today
