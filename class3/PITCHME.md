@@ -92,7 +92,7 @@ CommissionEmployee e =
 e.setSales(1000);
 System.out.println(e);
 ```
-@css[fragment](1300, because the superclass `toString()`, calls the subclass `earnsInYear()`.)
+@css[fragment](1300, because `toString()`, `earnsInYear()`.)
 
 
 ---
