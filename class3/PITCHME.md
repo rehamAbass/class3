@@ -84,7 +84,7 @@ System.out.println(e);
 ```
 Remember that `toString` is from `Employee`, and was not overridden..
 
-@css[fragment](1300, and then "Greg earns 1300.0")
+@css[fragment]("1300", and then "Greg earns 1300", correctly!)
 
 
 ---

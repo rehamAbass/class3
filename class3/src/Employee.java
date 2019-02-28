@@ -10,7 +10,7 @@ public class Employee {
 		return monthlySalary * 12;
 	}
 	public String toString() {
-		return String.format("%s Earns %.1f", 
+		return String.format("%s earns %.0f", 
 				name, earnsInYear());
 	}
 }
