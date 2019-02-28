@@ -105,6 +105,9 @@ The way to change the behavior inherited from the superclass.
   + So use it!
 
 
+
+
+
 ---
 ## `super`
 To access the overridden method (the original one), use the `super` keyword.
@@ -153,5 +156,15 @@ public class House extends Building {
 ```
 What will `new House("x ")` print?
 
+
+
+---
+# Object
+Every class is a subclass of the java class `Object`. 
++ No need to write `extends Object`.
++ So, every class has 'Object's methods.
+  + `String toString()`, writes <Class name>@<id>.
+  + `boolean equals(Object obj)`, checks if `this == obj`.
+  + `Class getClass()`,
 
 
