@@ -163,7 +163,7 @@ What will `new House("x ")` print?
 Every class is a subclass of the java class `Object`. 
 + No need to write `extends Object`.
 + So, every class has 'Object's methods.
-  + `String toString()`, writes <Class name>@<id>.
+  + `String toString()`, writes \<Class name\>@\<id\>.
   + `boolean equals(Object obj)`, checks if `this == obj`.
   + `Class getClass()`,
 
