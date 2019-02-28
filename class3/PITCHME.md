@@ -52,7 +52,6 @@ Recall the access rules for class members,
 + `private`: only from within the class.
 + default (package-private): from anywhere within the same package.
 + `protected`: like default, and from subclasses of other packages as well.
-  + best for allowing access to subclasses.
 
 
 ---?code=class3/src/Employee.java&lang=java
@@ -61,7 +60,7 @@ Recall the access rules for class members,
 
 
 ---
-### `CommisionEmployee`
+### `CommissionEmployee`
 + Gets a monthly salary (like `Employee`).
 + and a **commission** on his sales.
   + If he sold for *x* dollars, and his commission is *p*, then 
@@ -75,16 +74,6 @@ We can write a new class, but its will duplicate a lot of code.
 @[1-13](Use `super` to call a constructor of the superclass.) 
 @[15-19](Overriding a method.)
 
-
----
-## Overriding Methods
-+ The way to change the behavior inherited from the superclass.
-+ use the `@Override`...
-
-
-
-
-
 ---
 What will this print?
 ```java
@@ -96,13 +85,29 @@ System.out.println(e);
 @css[fragment](1300)
 
 
-
 ---
 The superclass's  `toString()` calls the new `earnsInYear()`.
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
-@css[fragment](*Except private members cannot be accessed in new code...*)
+@css[fragment](*Except private members are hidden from the new code...*)
+
+
+---
+## Overriding Methods
+The way to change the behavior inherited from the superclass.
+
++ The `@Override` decorator is optional,
+  + If the **signature** of the method does not match any method from 
+    the superclass it gives a warning.
+  + **So use it!**
+
+
+
+
+
+
+
 
 
 ---
