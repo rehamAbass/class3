@@ -52,8 +52,7 @@ Recall the access rules for class members,
 + `private`: only from within the class.
 + default (package-private): from anywhere within the same package.
 + `protected`: like default, and from subclasses of other packages as well.
-
-Always prefer `private`, and use `protected` for allowing subclasses to access. 
+  + best for allowing access to subclasses.
 
 
 ---?code=class3/src/Employee.java&lang=java
