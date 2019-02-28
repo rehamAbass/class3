@@ -55,7 +55,8 @@ Recall the access rules for class members,
 
 
 ---?code=class3/src/Employee.java&lang=java
-A simple `Employee` class.
+A simple `Employee` class. 
+Notice that `monthlySalary` is protected.
 
 ---
 ### `CommissionEmployee`
