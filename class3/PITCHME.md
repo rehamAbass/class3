@@ -50,11 +50,13 @@ It works!
   + `private`: only from within the class.
   + default (package-private): from anywhere within the same package.
   + `protected`: like default, and from subclasses of other packages as well.
-    + Best for allowing subclasses access. 
+    + Best for letting subclasses access. 
 
 
 ---?code=class3/src/Employee.java&lang=java
-Another example.
+@[1-14](A simple `Employee` class.)
+@[15-18](A simple `Employee` class.)
+
 
 
 
@@ -68,17 +70,6 @@ Another example.
 + The way to change the behavior inherited from the superclass.
 + use the `@Override`...
 
-
----
-To access the overridden method (the original one), use the `super` keyword.
-For example: 
-```java
-@Override 
-public double earnsInYear() {
-	return commission * sales + super.earnsInYear();
-}
-```
-There is no direct way to access the ''grandmother'', `super.super` does not work.
 
 
 
@@ -94,12 +85,28 @@ System.out.println(e);
 @css[fragment](1300)
 
 
+
 ---
 The superclass's  `toString()` calls the new `earnsInYear()`.
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
 @css[fragment](*Except private members cannot be accessed in new code...*)
+
+
+---
+To access the overridden method (the original one), use the `super` keyword.
+For example: 
+```java
+@Override 
+public double earnsInYear() {
+	return commission * sales + super.earnsInYear();
+}
+```
+There is no direct way to access the ''grandmother'', `super.super` does not work.
+
+
+
 
 
 
