@@ -100,7 +100,7 @@ The superclass's  `toString()` calls the new `earnsInYear()`.
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
-*Except private members cannot be accessed in new code...*
+@css[fragment](*Except private members cannot be accessed in new code...*)
 
 
 
