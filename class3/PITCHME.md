@@ -159,7 +159,7 @@ What will `new House("x ")` print?
 
 
 ---
-# Object
+### Object
 Every class is a subclass of the java class `Object`. 
 + No need to write `extends Object`.
 + So, every class inherits all of Object's methods.
