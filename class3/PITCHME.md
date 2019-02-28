@@ -92,10 +92,11 @@ CommissionEmployee e =
 e.setSales(1000);
 System.out.println(e);
 ```
-@css[fragment](1300, because `toString()`, `earnsInYear()`.)
+@css[fragment](1300)
 
 
 ---
+The superclass's  `toString()` calls the new `earnsInYear()`.
 
 @box[rounded](Think of the subclass as taking all the **code** of the superclass and rewriting some of the methods)
 
