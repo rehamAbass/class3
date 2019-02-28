@@ -40,19 +40,20 @@ We can think of `MountainBike` as having all the code of `Bicycle` for free.
 ---?code=class3/src/MainForMountainBike.java&lang=java
 It works!
 
-But Why does `MountainBike` use `getSpeed()` and not directly use `speed`?
+But why does `MountainBike` use `getSpeed()` and not directly use `speed`?
 
 
 
 ---
-private members of the superclass are **hidden** in the subclass.
+@box[rounded](private members of the superclass are **hidden** in the subclass.)
 
 Recall the access rules for class members,
 + `public`:  from anywhere.
 + `private`: only from within the class.
 + default (package-private): from anywhere within the same package.
 + `protected`: like default, and from subclasses of other packages as well.
-  + Best for letting subclasses access. 
+
+Always prefer `private`, and use `protected` for allowing subclasses to access. 
 
 
 ---?code=class3/src/Employee.java&lang=java
