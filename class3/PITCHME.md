@@ -55,7 +55,7 @@ It works!
 
 ---?code=class3/src/Employee.java&lang=java
 @[1-14](A simple `Employee` class.)
-@[15-18](A simple `Employee` class.)
+@[15-18](Notice that `toString` calls `earnsInYear`. This will be important later...)
 
 
 
