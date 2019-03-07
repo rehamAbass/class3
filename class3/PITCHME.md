@@ -121,7 +121,24 @@ The way to change the behavior inherited from the superclass.
   + So use it!
 
 
-
+---
+What will happen here?
+```java
+Class A {
+public int f() { return 1; }
+}
+```
+```java
+Class B extends A {
+public double f() { return 1.1; }
+}
+```
+And 
+```Java
+B b = new B();
+b.f();
+```
+@css[fragment](A compilation error!)
 
 
 ---
