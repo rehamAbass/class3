@@ -57,7 +57,7 @@ Recall the access rules for class members,
 
 ---
 ## UML diagram
-@img[span-80](class3/resources/bikes.png)
+@img[span-75](class3/resources/bikes.png)
 
 
 ---?code=class3/src/Employee.java&lang=java
@@ -82,7 +82,8 @@ We can write a new class, but its will duplicate a lot of code.
 
 
 ---
-@img[span-80](class3/resources/employees.png)
+@img[span-75](class3/resources/employees.png)
+
 Note the differente way to denote `private`, `public` and `protected` members.
 
 
