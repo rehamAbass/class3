@@ -57,7 +57,7 @@ Recall the access rules for class members,
 
 ---
 ## UML diagram
-![](class3/resources/bikes.png)
+@img[span-80](class3/resources/bikes.png)
 
 
 ---?code=class3/src/Employee.java&lang=java
@@ -83,6 +83,9 @@ We can write a new class, but its will duplicate a lot of code.
 
 ---
 @img[span-100](class3/resources/employees.png)
+
+
+
 
 ---
 What will this print?
