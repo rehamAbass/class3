@@ -37,6 +37,11 @@ A simple class.
 We can think of `MountainBike` as having all the code of `Bicycle` for free.
 
 
+---
+## UML diagram
+@img[span-75](class3/resources/bikes.png)
+
+
 ---?code=class3/src/MainForMountainBike.java&lang=java
 It works!
 
@@ -55,9 +60,6 @@ Recall the access rules for class members,
 
 
 
----
-## UML diagram
-@img[span-75](class3/resources/bikes.png)
 
 
 ---?code=class3/src/Employee.java&lang=java
@@ -150,7 +152,6 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 
 
 ---
-### Object
 Every class is a subclass of the java class `Object`.
 + So, every class inherits all of `Object`'s methods.
   + `String toString()`, writes ClassName@id.
@@ -158,4 +159,5 @@ Every class is a subclass of the java class `Object`.
   + `Class getClass()`, returns an instance of the `Class` of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
   + more..
+
 
