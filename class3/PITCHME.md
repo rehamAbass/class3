@@ -83,9 +83,7 @@ We can write a new class, but its will duplicate a lot of code.
 
 ---
 @img[span-80](class3/resources/employees.png)
-
-
-
+Note the differente way to denote `private`, `public` and `protected` members.
 
 
 
