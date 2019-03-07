@@ -121,21 +121,6 @@ The way to change the behavior inherited from the superclass.
   + So use it!
 
 
----
-What will happen here?
-```java
-Class A {
-public int f() { return 1; }
-}
-```
-```java
-Class B extends A {
-public double f() { return 1.1; }
-}
-```
-A compilation error!
-+ If argument list is different, it's just two different functions.
-+ If only return type is different, Java doesn't know what to do...
 
 
 ---
@@ -160,41 +145,16 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 + Constructors of the superclass are not constructors of the subclass.
   + `super(...)` calls a constructor of the superclass.
   + Must appear as the **first line** in the constructor!
-+ If no `super` constructor call, then java invisibly adds `super()` 
-as a first line.
-  + unless first line is a `this` constructor call...
-  
-  
----
-### Example:
-```java
-public class Building {
-    Building() { System.out.print("b "); }
-    Building(String name) {
-		this(); 
-		System.out.print("bn " + name);
-    }
-}```
-```java
-public class House extends Building {
-	House() { System.out.print("h "); }
-	House(String name) {
-		this(); 
-		System.out.print("hn " + name);
-	}
-}
-```
-What will `new House("x ")` print?
++ For now, always put a `super` call as the first line of a constructor.
 
 
 
 ---
 ### Object
-Every class is a subclass of the java class `Object`. 
+Every class is a subclass of the java class `Object`.
 + No need to write `extends Object`.
 + So, every class inherits all of Object's methods.
   + `String toString()`, writes ClassName@id.
-    + this is what will happen if you don't override `toString`.
   + `boolean equals(Object obj)`, checks if `this == obj`.
   + `Class getClass()`, returns an instance of the Class of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
