@@ -14,7 +14,7 @@
 
 
 ---
-![](class3/umlExample.png)
+![](class3/resources/umlExample.png)
 
 A UML diagram demonstrating inheritance.
 
@@ -52,6 +52,12 @@ Recall the access rules for class members,
 + `private`: only from within the class.
 + default (package-private): from anywhere within the same package.
 + `protected`: like default, and from subclasses of other packages as well.
+
+
+
+---
+## UML diagram
+![](class3/resources/bikes.png)
 
 
 ---?code=class3/src/Employee.java&lang=java
