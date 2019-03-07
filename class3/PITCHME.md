@@ -152,11 +152,10 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 ---
 ### Object
 Every class is a subclass of the java class `Object`.
-+ No need to write `extends Object`.
-+ So, every class inherits all of Object's methods.
++ So, every class inherits all of `Object`'s methods.
   + `String toString()`, writes ClassName@id.
   + `boolean equals(Object obj)`, checks if `this == obj`.
-  + `Class getClass()`, returns an instance of the Class of the object.
+  + `Class getClass()`, returns an instance of the `Class` of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
   + more..
 
