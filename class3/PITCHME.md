@@ -84,7 +84,7 @@ We can write a new class, but its will duplicate a lot of code.
 ---
 @img[span-75](class3/resources/employees.png)
 
-Note the differente way to denote `private`, `public` and `protected` members.
+Note how we denote `private`, `public` and `protected` members.
 
 
 
@@ -133,12 +133,9 @@ Class B extends A {
 public double f() { return 1.1; }
 }
 ```
-And 
-```Java
-B b = new B();
-b.f();
-```
-@css[fragment](A compilation error!)
+A compilation error!
++ If argument list is different, it's just two different functions.
++ If only return type is different, Java doesn't know what to do...
 
 
 ---
