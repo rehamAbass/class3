@@ -82,7 +82,13 @@ We can write a new class, but its will duplicate a lot of code.
 
 
 ---
-@img[span-100](class3/resources/employees.png)
+@img[span-80](class3/resources/employees.png)
+
+@css[text-red](Red) for `private`,
+@css[text-green](Green) for `public`,
+@css[text-green](yellow) for `protected`,
+
+
 
 
 
