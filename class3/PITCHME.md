@@ -79,6 +79,11 @@ We can write a new class, but its will duplicate a lot of code.
 @[1-13](Use `super` to call a constructor of the superclass.) 
 @[15-19](Overriding a method.)
 
+
+
+---
+![](class3/resources/employees.png)
+
 ---
 What will this print?
 ```java
