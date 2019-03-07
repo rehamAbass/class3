@@ -19,6 +19,12 @@ span .hljs-title {
 }
 
 
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+}
+
+
 /*
 .reveal div {
 	font-size: 90%;
