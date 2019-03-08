@@ -164,12 +164,12 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 
 ---?code=class3/src/MainForSortedArray1.java&lang=java
 
-So far so good...
-We would like to associate with each number in the array a name. For example:
+Next, we would like to associate with each number in the array a name. For example:
 
 
 ---?code=class3/src/MainForNamedSortedArray.java&lang=java
 
+Sorting is done according to the numbers, and the strings follow the same new ordering.
 
 
 ---?code=class3/src/SortedArray.java&lang=java
