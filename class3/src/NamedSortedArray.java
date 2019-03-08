@@ -20,6 +20,7 @@ public class NamedSortedArray extends SortedArray {
 
 	@Override
 	public String toString() {
-		return Arrays.toString(names);
+		return super.toString() + " : " + 
+				Arrays.toString(names);
 	}
 }
