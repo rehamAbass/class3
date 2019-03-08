@@ -172,7 +172,17 @@ Next, we would like to associate with each number in the array a name. For examp
 Sorting is done according to the numbers, and the strings follow the same new ordering.
 
 
+---
+## The problem
++ Let's make a subclass `NamedSortedArray` of `SortedArray`.
++ Overriding `sort` forces us to write the whole algorithm again.
+  + Imagine this is a very complex sorting algorithm...
+
+How can we solve this?
+
+
 ---?code=class3/src/SortedArray.java&lang=java
+
 
 
 ---?code=class3/src/NamedSortedArray.java&lang=java
