@@ -4,5 +4,6 @@ public class MainForSortedArray1 {
 		SortedArray1 sa = new SortedArray1(b);
 		sa.sort();
 		System.out.println(sa);
+		// [-4, 1, 2, 4, 5, 9, 15]
 	}
 }
