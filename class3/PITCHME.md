@@ -183,9 +183,7 @@ How can we solve this?
 
 
 ---?code=class3/src/SortedArray.java&lang=java
-@[12-22]
-We extract a method for swapping, and will only override it!
-
+@[12-22](We extract a method for swapping, and will only override it!)
 
 
 ---?code=class3/src/NamedSortedArray.java&lang=java
