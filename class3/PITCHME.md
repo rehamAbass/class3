@@ -217,6 +217,10 @@ Make a subclass of `SortedArray` that supports changing elements of the array.
 ```java
 void change(int i, int x)
 ```
-Basically does `a[i] += x`, and then resorts the array efficienty.
+Basically does `a[i] += x`, and then resorts the array efficiently.
 
- 
+
+---
++ First problem is `a` is private.
+  + Change it to `protected`.
+  + or add a `int get(int i)` and a `void set(int i, int val)`.
