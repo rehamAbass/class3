@@ -183,7 +183,7 @@ How can we solve this?
 
 
 ---?code=class3/src/SortedArray.java&lang=java
-@[12-22](Everything else is the same)
+@[12-22]
 We extract a method for swapping, and will only override it!
 
 
