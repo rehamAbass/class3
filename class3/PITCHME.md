@@ -4,12 +4,16 @@
 
 ---
 ## Today
-1.
-
+1. Inheritance.
+  + subclasses and superclasses.
+1. Overriding methods.
+1. The `super` keyword.
+1. `Object` as the superclass of all Java classes.
 
 ---
 ## Resources
-+ 
++ Chapter 9 of the Deitel.
++ [Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html)
 
 
 
