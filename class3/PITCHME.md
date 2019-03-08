@@ -186,16 +186,16 @@ How can we solve this?
 @[12-22](We extract a method for swapping, and will only override it!)
 
 
+
+
 ---?code=class3/src/NamedSortedArray.java&lang=java
-@[1-11](Use `super` constructor, and handle new stuff.)
+@[1-11](`super` constructor takes care of the numbers.)
+@[13-19](Overriding `swap`.)
+@[21-25](`super` again)
 
 
 ---
 @img[span-75](class3/resources/arrays.png)
-
-
----?code=class3/src/MainForNamedSortedArray.java&lang=java
-
 
 
 ---
@@ -208,4 +208,15 @@ Every class is a subclass of the java class `Object`.
   + more..
 
 
+---
+*If there is time*
 
+## Exercise
+
+Make a subclass of `SortedArray` that supports changing elements of the array.
+```java
+void change(int i, int x)
+```
+Basically does `a[i] += x`, and then resorts the array efficienty.
+
+ 
