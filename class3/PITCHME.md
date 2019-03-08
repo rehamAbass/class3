@@ -156,6 +156,10 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 
 
 ---?code=class3/src/SortedArray1.java&lang=java
+@[1-10](Constructor just copies the array.)
+@[12-19](Insertion sort (do you know it?).)
+@[21-24](recall the static method `toString` of class `Arrays`.)
+
 
 
 ---?code=class3/src/MainForSortedArray1.java&lang=java
