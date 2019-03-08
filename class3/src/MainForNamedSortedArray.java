@@ -7,6 +7,6 @@ public class MainForNamedSortedArray {
 				new NamedSortedArray(a, names);
 		nsa.sort();
 		System.out.println(nsa);
-		// [zero, one, two, three, forty]
+		// [0, 1, 2, 3, 40] : [zero, one, two, three, forty]
 	}
 }
