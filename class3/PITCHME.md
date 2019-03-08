@@ -182,16 +182,14 @@ Sorting is done according to the numbers, and the strings follow the same new or
 How can we solve this?
 
 
----?code=class3/src/SortedArray1.java&lang=java
-@[12-22](Everything else is the same)
-We extract an method for swapping, and will only override it!
-
-
 ---?code=class3/src/SortedArray.java&lang=java
-@[1-11](Use `super` constructor, and handle new stuff.)
+@[12-22](Everything else is the same)
+We extract a method for swapping, and will only override it!
+
 
 
 ---?code=class3/src/NamedSortedArray.java&lang=java
+@[1-11](Use `super` constructor, and handle new stuff.)
 
 
 ---
