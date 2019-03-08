@@ -151,6 +151,33 @@ There is no direct way to access the ''grandmother'', `super.super` does not wor
 
 
 
+---?code=class3/src/SortedArray1.java&lang=java
+
+
+---?code=class3/src/MainForSortedArray1.java&lang=java
+
+
+---
+We would like to add a name to each element in the array
++
++
++
+
+
+---?code=class3/src/SortedArray.java&lang=java
+
+
+---?code=class3/src/NamedSortedArray.java&lang=java
+
+
+---
+@img[span-75](class3/resources/arrays.png)
+
+
+---?code=class3/src/MainForNamedSortedArray.java&lang=java
+
+
+
 ---
 Every class is a subclass of the java class `Object`.
 + So, every class inherits all of `Object`'s methods.
@@ -159,5 +186,6 @@ Every class is a subclass of the java class `Object`.
   + `Class getClass()`, returns an instance of the `Class` of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
   + more..
+
 
 
