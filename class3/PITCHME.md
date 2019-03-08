@@ -175,14 +175,20 @@ Sorting is done according to the numbers, and the strings follow the same new or
 ---
 ## The problem
 + Let's make a subclass `NamedSortedArray` of `SortedArray`.
++ Constructor takes the int array and names array.
 + Overriding `sort` forces us to write the whole algorithm again.
   + Imagine this is a very complex sorting algorithm...
 
 How can we solve this?
 
 
----?code=class3/src/SortedArray.java&lang=java
+---?code=class3/src/SortedArray1.java&lang=java
+@[12-22](Everything else is the same)
+We extract an method for swapping, and will only override it!
 
+
+---?code=class3/src/SortedArray.java&lang=java
+@[1-11](Use `super` constructor, and handle new stuff.)
 
 
 ---?code=class3/src/NamedSortedArray.java&lang=java
