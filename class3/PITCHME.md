@@ -193,7 +193,7 @@ and then we only need to override `swap`!
 
 
 ---?code=class3/src/SortedArray.java&lang=java
-@[12-22](Note that `swap` is `protected`. We don't really want it to be `public`, yet we need to override it.
+@[12-22](Note that `swap` is `protected`. We don't really want it to be `public`, yet we need to override it.)
 
 
 
