@@ -179,13 +179,18 @@ Sorting is done according to the numbers, and the strings follow the same new or
 + Overriding `sort` forces us to write the whole algorithm again.
   + Imagine this is a very complex sorting algorithm...
 
-How can we solve this?
+*How can we solve this?*
+
 
 
 ---
 @img[span-75](class3/resources/arrays.png)
+
 Change `SortedArray` by **extracting** from `sort` the method `swap`,
 and then we only need to override `swap`!.
+
+
+
 
 ---?code=class3/src/SortedArray.java&lang=java
 @[12-22]
