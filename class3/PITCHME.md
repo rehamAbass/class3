@@ -187,13 +187,13 @@ Sorting is done according to the numbers, and the strings follow the same new or
 @img[span-75](class3/resources/arrays.png)
 
 Change `SortedArray` by **extracting** from `sort` the method `swap`,
-and then we only need to override `swap`!.
+and then we only need to override `swap`!
 
 
 
 
 ---?code=class3/src/SortedArray.java&lang=java
-@[12-22]
+@[12-22](Note that `swap` is `protected`. We don't really want it to be `public`, yet we need to override it.
 
 
 
