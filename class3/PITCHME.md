@@ -182,8 +182,13 @@ Sorting is done according to the numbers, and the strings follow the same new or
 How can we solve this?
 
 
+---
+@img[span-75](class3/resources/arrays.png)
+Change `SortedArray` by **extracting** from `sort` the method `swap`,
+and then we only need to override `swap`!.
+
 ---?code=class3/src/SortedArray.java&lang=java
-@[12-22](We extract a method for swapping, and will only override it!)
+@[12-22]
 
 
 
@@ -194,8 +199,6 @@ How can we solve this?
 @[21-25](`super` again)
 
 
----
-@img[span-75](class3/resources/arrays.png)
 
 
 ---
