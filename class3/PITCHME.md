@@ -140,8 +140,20 @@ public double earnsInYear() {
 ```
 There is no direct way to access the ''grandmother'', `super.super` does not work.
 
-
-
+---
+## Question 
+How can we grant access to the grandmother?
+```java
+public class A {
+}
+public class B extends A {
+}
+public class C extends B {
+	public void f() {
+		system.out.println(grandma.toString());
+	}
+}
+```
 
 
 
