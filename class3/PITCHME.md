@@ -101,12 +101,11 @@ What will this print?
 CommissionEmployee e = 
 	new CommissionEmployee("Greg", 100, 0.1);
 e.setSales(1000);
-System.out.println(e.earnsInYear());
 System.out.println(e);
 ```
-Remember that `toString` is from `Employee`, and was not overridden..
+Remember that `toString` is from `Employee`, and was not overridden. So does it call the new or old `earnsInYear()`?
 
-@css[fragment]("1300", and then "Greg earns 1300", correctly!)
+@css[fragment]("Greg earns 1300", correctly!)
 
 
 ---
