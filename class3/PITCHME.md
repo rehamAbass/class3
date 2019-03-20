@@ -166,13 +166,13 @@ First, **insertion sort**, which is considered the
 fastest sorting algorithm for very small arrays. It is therefore used as the base case
 for many recursive sorting algorithms.
 
-![Insertion sort](https://www.youtube.com/embed/umxObxdy_4E)
+![Insertion sort](https://www.youtube.com/embed/ROalU379l3U)
 
 
 
 ---?code=class3/src/SortedArray1.java&lang=java
 @[1-10](Constructor just copies the array.)
-@[12-19](Insertion sort (do you know it?).)
+@[12-19](Insertion sort.)
 @[21-24](recall the static method `toString` of class `Arrays`.)
 
 
