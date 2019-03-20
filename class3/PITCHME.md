@@ -156,15 +156,16 @@ There is no direct way to access the ''grandmother'' methods, `super.super` does
 ---
 ## A Complex Example
 
-Let's start with a simple class, that is intialized with an array, 
+Let's start with a simple class, that is initialized with an array, 
 and has a method to sort it. 
 
 Later, we will want to subclass it, and encounter some problems...
 
----
 First, **insertion sort**, which is considered the
-fastest sorting algorithm for very small arrays. It is therefore used as the base case
+fastest sorting algorithm for small arrays. It is used as the base case
 for many recursive sorting algorithms.
+
+---
 
 ![Insertion sort](https://www.youtube.com/embed/ROalU379l3U)
 
