@@ -161,7 +161,7 @@ and has a method to sort it.
 
 Later, we will want to subclass it, and encounter some problems...
 
-First, **insertion sort**, which is considered the
+We will use **insertion sort**, which is considered the
 fastest sorting algorithm for small arrays. It is used as the base case
 for many recursive sorting algorithms.
 
