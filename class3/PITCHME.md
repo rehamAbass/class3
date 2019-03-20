@@ -166,7 +166,7 @@ First, **insertion sort**, which is considered the
 fastest sorting algorithm for very small arrays. It is therefore used as the base case
 for many recursive sorting algorithms.
 
-![Insertion sort](https://www.youtube.com/watch?v=umxObxdy_4E)
+![Insertion sort](https://www.youtube.com/embed/umxObxdy_4E)
 
 
 
