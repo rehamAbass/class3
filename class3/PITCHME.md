@@ -138,22 +138,8 @@ public double earnsInYear() {
 	return commission * sales + super.earnsInYear();
 }
 ```
-There is no direct way to access the ''grandmother'', `super.super` does not work.
+There is no direct way to access the ''grandmother'' methods, `super.super` does not work.
 
----
-## Question 
-How can we grant access to the grandmother?
-```java
-public class A {
-}
-public class B extends A {
-}
-public class C extends B {
-	public void f() {
-		system.out.println(grandma.toString());
-	}
-}
-```
 
 
 
@@ -165,6 +151,15 @@ public class C extends B {
 + For now, always put a `super` call as the first line of a constructor.
 
 
+
+
+---
+## A Complex Example
+
+Let's start with a simple class, that is intialized with an array, 
+and has a method to sort it. 
+
+Later, we will want to subclass it, and encounter some problems...
 
 ---?code=class3/src/SortedArray1.java&lang=java
 @[1-10](Constructor just copies the array.)
