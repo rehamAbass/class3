@@ -161,6 +161,15 @@ and has a method to sort it.
 
 Later, we will want to subclass it, and encounter some problems...
 
+---
+First, **insertion sort**, which is considered the
+fastest sorting algorithm for very small arrays. It is therefore used as the base case
+for many recursive sorting algorithms.
+
+![Insertion sort](https://www.youtube.com/watch?v=umxObxdy_4E)
+
+
+
 ---?code=class3/src/SortedArray1.java&lang=java
 @[1-10](Constructor just copies the array.)
 @[12-19](Insertion sort (do you know it?).)
