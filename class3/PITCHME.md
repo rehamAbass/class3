@@ -248,3 +248,9 @@ Basically does `a[i] += x`, and then resorts the array efficiently.
 + First problem is `a` is private.
   + Change it to `protected`.
   + or add a `int get(int i)` and a `void set(int i, int val)`.
+
+  
+  
+---
+Difference between composition and inheritance.
+`Line` can be a subclass of `Dot`, or can have two `Dot` instances. Which is better?
