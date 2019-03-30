@@ -258,39 +258,32 @@ public class B extends A {
 	public String f() { return "B"; }
 }
 ```
-What does `(new B()).print()` print?
+What does `(new B()).print()` do?
 
 @css[fragment]( A B)
 
 
 ---
-### Hiding variables and static members
+### Hiding variables
 Unlike overriding methods of a superclass,
-+ Using the same name in a subclass for: 
-  + a variable,
-  + a static variable or method.
-+ Will hide the superclass member.
-+ To access static members, use the superclass name.
-+ For accessing a superclass variable, use `super`
+Using the same name for a variable in a subclass as in the superclass 
+Will **hide** the superclass variable.
++ methods of the superclass will use the superclass version, as we saw.
++ The variable is still accessible using `super`.
 
 
 ---
-```java
-public class A {
-	public int x = 1;
-	public static int sx = 1;
-	public static int f() { return 1; }
-}
-```
-```java
-public class B extends A {
-	public int x = 2;
-	public static int sx = 2;
-	public static int f() { return 2; }
-}
-```
+## Static members
+Just like instance variables, 
+static variables and methods are not overridden, but hidden.
++ The reason for this is that only instance methods are **bound** dynamically. instance variables and static members are bound at compile time.
++ You can always access hidden static methods using the superclass name.
 
 
+---
+This breaks our intuition, that the code is inherited by the subclasses.
++ However, hiding is not used much. 
++ So take care when it does happen!
 
 
 ---
