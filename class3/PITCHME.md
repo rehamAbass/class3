@@ -242,7 +242,7 @@ Every class is a subclass of the java class `Object`.
 
 
 ---
-### Variables in Subclasses.
+### Variables in Subclasses
 ```java
 public class A {
 	public String x = "A";
@@ -258,10 +258,8 @@ public class B extends A {
 	public String f() { return "B"; }
 }
 ```
-What would the following print?
-```java
-(new B()).print();
-```
+What does `(new B()).print()` print?
+@css[fragment]( A B)
 
 
 ---
