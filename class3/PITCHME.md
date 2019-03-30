@@ -161,9 +161,15 @@ and has a method to sort it.
 
 Later, we will want to subclass it, and encounter some problems...
 
+Let's first see how we use it:
+
+---?code=class3/src/MainForSortedArray1.java&lang=java
+
+
 We will use **insertion sort**, which is considered the
 fastest sorting algorithm for small arrays. It is used as the base case
 for many recursive sorting algorithms.
+
 
 ---
 
@@ -177,10 +183,12 @@ for many recursive sorting algorithms.
 @[21-24](recall the static method `toString` of class `Arrays`.)
 
 
+---
+## Next
 
----?code=class3/src/MainForSortedArray1.java&lang=java
-
-Next, we would like to associate with each number in the array a name. For example:
+We would like to associate with each number in the array a name. 
+For that we will define `NamedSortedArray`, which is a subclass of `SortedArray`.
+For example:
 
 
 ---?code=class3/src/MainForNamedSortedArray.java&lang=java
