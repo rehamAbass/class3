@@ -276,10 +276,10 @@ using the same name for a variable in a subclass as in the superclass
 
 
 ---
-## Static members
+### Static members
 Just like instance variables, 
 static variables and methods are not overridden, but hidden.
-+ The reason for this is that only instance methods are **bound** dynamically. instance variables and static members are bound at compile time.
++ The reason for this is that only instance methods are **bound** dynamically. instance variables and static members are bound at compilation time.
 + You can always access hidden static methods using the superclass name.
 
 
