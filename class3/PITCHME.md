@@ -263,13 +263,16 @@ What does `(new B()).print()` do?
 @css[fragment]( A B)
 
 
+
 ---
 ### Hiding variables
 Unlike overriding methods of a superclass,
-Using the same name for a variable in a subclass as in the superclass 
-Will **hide** the superclass variable.
-+ methods of the superclass will use the superclass version, as we saw.
+using the same name for a variable in a subclass as in the superclass 
+**hides** the superclass variable.
++ The object actually has the two variables.
++ Methods of the superclass will use the superclass version, as is the example.
 + The variable is still accessible using `super`.
+
 
 
 ---
@@ -278,6 +281,7 @@ Just like instance variables,
 static variables and methods are not overridden, but hidden.
 + The reason for this is that only instance methods are **bound** dynamically. instance variables and static members are bound at compile time.
 + You can always access hidden static methods using the superclass name.
+
 
 
 ---
