@@ -242,7 +242,7 @@ Every class is a subclass of the java class `Object`.
 
 
 ---
-### Variables in Subclasses
+### Overriding variables?
 ```java
 public class A {
 	public String x = "A";
@@ -259,6 +259,7 @@ public class B extends A {
 }
 ```
 What does `(new B()).print()` print?
+
 @css[fragment]( A B)
 
 
