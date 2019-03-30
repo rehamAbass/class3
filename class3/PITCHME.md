@@ -240,6 +240,60 @@ Every class is a subclass of the java class `Object`.
   + more..
 
 
+
+---
+### Variables in Subclasses.
+```java
+public class A {
+	public String x = "A";
+	public String f() { return "A"; }
+	public void print() { 
+		System.out.println(x + " " + f()); 
+	}
+}
+```
+```java
+public class B extends A {
+	public String x = "B";
+	public String f() { return "B"; }
+}
+```
+What would the following print?
+```java
+(new B()).print();
+```
+
+
+---
+### Hiding variables and static members
+Unlike overriding methods of a superclass,
++ Using the same name in a subclass for: 
+  + a variable,
+  + a static variable or method.
++ Will hide the superclass member.
++ To access static members, use the superclass name.
++ For accessing a superclass variable, use `super`
+
+
+---
+```java
+public class A {
+	public int x = 1;
+	public static int sx = 1;
+	public static int f() { return 1; }
+}
+```
+```java
+public class B extends A {
+	public int x = 2;
+	public static int sx = 2;
+	public static int f() { return 2; }
+}
+```
+
+
+
+
 ---
 *If there is time*
 
@@ -252,10 +306,14 @@ void change(int i, int x)
 Basically does `a[i] += x`, and then resorts the array efficiently.
 
 
+
+
 ---
 + First problem is `a` is private.
   + Change it to `protected`.
-  + or add a `int get(int i)` and a `void set(int i, int val)`.
+  + or add 
+    + `int get(int i)`
+    + `void set(int i, int val)`
 
   
   
