@@ -285,7 +285,7 @@ static variables and methods are not overridden, but hidden.
 
 
 ---
-# Hiding
+### Hiding
 + It only affects cases where the superclass uses the hidden version, while you might expect it to use the overridden one.
 + Hiding is not used a lot, and it's just better to avoid it.
 
