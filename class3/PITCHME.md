@@ -317,5 +317,5 @@ First problem is `a` is private.
   
   
 ---
-Difference between composition and inheritance.
+### Composition vs. Inheritance.
 `Line` can be a subclass of `Dot`, or can have two `Dot` instances. Which is better?
