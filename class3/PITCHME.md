@@ -287,8 +287,9 @@ static variables and methods are not overridden, but hidden.
 ---
 This breaks our intuition, that the code is inherited by the subclasses.
 + However, it only affects cases where the superclass uses the hidden version, while you might expect it to use the overridden one.
-+ However, hiding is not used much. 
-+ But take care when it does happen!
++ Hiding is not used a lot. 
+
+**Take care when it does happen!**
 
 
 ---
