@@ -308,7 +308,7 @@ Basically does `a[i] += x`, and then resorts the array efficiently.
 
 
 ---
-First problem is `a` is private,
+First problem is `a` is private.
 + Change it to `protected`.
 + or add 
   + `int get(int i)`
