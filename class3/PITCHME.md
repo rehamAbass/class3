@@ -236,7 +236,7 @@ Every class is a subclass of the java class `Object`.
 + So, every class inherits all of `Object`'s methods.
   + `String toString()`, writes ClassName@id.
   + `boolean equals(Object obj)`, checks if `this == obj` 
-    (more on that in the next class)
+    (more on that in the next class).
   + `Class getClass()`, returns an instance of the `Class` of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
   + more..
@@ -310,7 +310,7 @@ Basically does `a[i] += x`, and then resorts the array efficiently.
 
 
 ---
-First problem is `a` is private.
+The problem is `a` is private. Two solutions:
 + Change it to `protected`.
 + or add 
   + `int get(int i)`
