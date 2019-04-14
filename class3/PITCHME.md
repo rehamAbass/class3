@@ -186,9 +186,10 @@ for many recursive sorting algorithms.
 ---
 ## Next
 
-We would like to associate with each number in the array a name. 
++ We would like to associate with each number in the array a name. 
 For that we will define `NamedSortedArray`, which is a subclass of `SortedArray`.
-For example:
+
+@css[fragment](**For example:**)
 
 
 ---?code=class3/src/MainForNamedSortedArray.java&lang=java
@@ -234,7 +235,8 @@ and then we only need to override `swap`!
 Every class is a subclass of the java class `Object`.
 + So, every class inherits all of `Object`'s methods.
   + `String toString()`, writes ClassName@id.
-  + `boolean equals(Object obj)`, checks if `this == obj`.
+  + `boolean equals(Object obj)`, checks if `this == obj` 
+    (more on that in the next class)
   + `Class getClass()`, returns an instance of the `Class` of the object.
     + `x.getClass().getName()` returns the name of `x`'s class.
   + more..
