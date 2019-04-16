@@ -228,8 +228,7 @@ and then we only need to override `swap`!
 ---?code=class3/src/NamedSortedArray.java&lang=java
 @[1-11](`super` constructor takes care of the numbers.)
 @[13-19](Overriding `swap`.)
-@[21-25](`super` again)
-
+@[21-25](Why do we write `@Override` above `toString`?)
 
 
 
@@ -244,6 +243,40 @@ Every class is a subclass of the java class `Object`.
   + more..
 
 
+
+---
+## Exercise
+
+Make a subclass of `SortedArray` that supports changing elements of the array.
+```java
+void change(int i, int delta)
+```
+Basically does `a[i] += delta`, and then resorts the array efficiently.
+
+
+---
+The problem is `a` is private. Two solutions:
++ Change it to `protected`.
++ or add 
+  + `int get(int i)`
+  + `void set(int i, int val)`
+
+@css[fragment](*Let's go for the second solution:*)
+
+
+
+---?code=class3/src/SortedArray2.java&lang=java
+@[12-22](Otherwise it is exactly the same as `SortedArray`. Soon we'll see why we need `len()`.)
+The new methods are set to be `protected`. Setting it to 'public' would be too much: always prefer a stricter access modifier.
+
+
+
+---?code=class3/src/AugmentedArray.java&lang=java
+
+
+
+---?code=class3/src/MainForAugmentedArray.java&lang=java
+Access to the superclass's protected methods is simple.
 
 ---
 ### Overriding variables?
@@ -296,27 +329,6 @@ static variables and methods are not overridden, but hidden.
 **Take care when it does happen!**
 
 
-
----
-*If there is time*
-
-## Exercise
-
-Make a subclass of `SortedArray` that supports changing elements of the array.
-```java
-void change(int i, int x)
-```
-Basically does `a[i] += x`, and then resorts the array efficiently.
-
-
-
-
----
-The problem is `a` is private. Two solutions:
-+ Change it to `protected`.
-+ or add 
-  + `int get(int i)`
-  + `void set(int i, int val)`
 
   
   
