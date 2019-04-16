@@ -6,11 +6,9 @@ public class Employee {
 		this.name = name;
 		this.monthlySalary = monthlySalary;
 	}
-
 	public double earnsInYear() {
 		return monthlySalary * 12;
 	}
-
 	public String toString() {
 		return String.format("%s earns %.0f", name,
 				earnsInYear());
