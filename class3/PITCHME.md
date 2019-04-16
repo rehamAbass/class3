@@ -272,11 +272,13 @@ The new methods are set to be `protected`. Setting it to 'public' would be too m
 
 
 ---?code=class3/src/AugmentedArray.java&lang=java
+Access to the superclass's protected methods is simple.
 
 
 
 ---?code=class3/src/MainForAugmentedArray.java&lang=java
-Access to the superclass's protected methods is simple.
+
+
 
 ---
 ### Overriding variables?
