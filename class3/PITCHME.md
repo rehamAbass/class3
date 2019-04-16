@@ -266,8 +266,8 @@ The problem is `a` is private. Two solutions:
 
 
 ---?code=class3/src/SortedArray2.java&lang=java
-@[12-22](Otherwise it is exactly the same as `SortedArray`. Soon we'll see why we need `len()`.)
-The new methods are set to be `protected`. Setting it to 'public' would be too much: always prefer a stricter access modifier.
+@[12-22]
+The new methods are set to be `protected`. Setting it to `public` would be too much: always prefer a stricter access modifier.
 
 
 
