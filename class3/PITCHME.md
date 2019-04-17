@@ -191,7 +191,7 @@ for many recursive sorting algorithms.
 + We would like to associate with each number in the array a name. 
 For that we will define `NamedSortedArray`, which is a subclass of `SortedArray`.
 
-@css[fragment](**For example:**)
+@css[fragment](*For example:*)
 
 
 ---?code=class3/src/MainForNamedSortedArray.java&lang=java
@@ -332,8 +332,21 @@ static variables and methods are not overridden, but hidden.
 
 
 
-  
-  
 ---
-### Composition vs. Inheritance.
-`Line` can be a subclass of `Dot`, or can have two `Dot` instances. Which is better?
+### Hash tables and Hash maps.
+
+The following example is very important in its own right.
++ It also shows a simple example of inheritance...
++ Java has very strong support for using hashtables.
+  + We will learn more about it later.
++ For example, strings have a method `hashCode()`, which returns
+  a very large number that is a hash of the string.
+  
+*so lets build a simple hash table:*
+
+  
+---?code=class3/src/HashTable.java&lang=java
+  
+  
+---?code=class3/src/MainForHashTable.java&lang=java
+  
