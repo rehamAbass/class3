@@ -353,7 +353,7 @@ The following example is very important in its own right.
   
   
 ---?code=class3/src/MainForHashTable.java&lang=java
-A hashtable is very efficient for saving a set (of strings in this case).
+A hash table is efficient for saving a set (of strings in this case).
 
 
 ---
@@ -361,7 +361,7 @@ A hashtable is very efficient for saving a set (of strings in this case).
 
 A *map* is used for saving key-value pairs, that are searchable by the key. It is a **very** useful data structure.
 
-It will be best to explain what it is good for, by showing how we can use it:
+It will be best to explain what it is good for by showing how we can use it:
 
 
 ---?code=class3/src/MainForHashMap.java&lang=java
@@ -374,5 +374,9 @@ Maps are sometimes called dictionaries.
 @[9-22]
  
 
-
+---
+### Example uses
++ For going through a text file and counting how many times each word appears.
++ Generally, for saving specific information for different objects. 
++ The Java standard library has these classes in a more general form. We will learn about them later in the course.
 
