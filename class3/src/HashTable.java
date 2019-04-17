@@ -22,6 +22,6 @@ public class HashTable {
 	}
 
 	public boolean contains(String s) {
-		return table[indexOf(s)] == null;
+		return table[indexOf(s)] != null;
 	}
 }

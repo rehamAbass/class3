@@ -342,11 +342,37 @@ The following example is very important in its own right.
 + For example, strings have a method `hashCode()`, which returns
   a very large number that is a hash of the string.
   
-*so lets build a simple hash table:*
+*so let's build a simple hash table:*
 
   
 ---?code=class3/src/HashTable.java&lang=java
+@[1-6](For simplicity we make it of a fixed size.)
+@[8-18](Either finds the string, or an empty place where it could have been.)
+@[20-26](These are very simple now.)
+  
   
   
 ---?code=class3/src/MainForHashTable.java&lang=java
-  
+A hashtable is very efficient for saving a set (of strings in this case).
+
+
+---
+### HashMap
+
+A *map* is used for saving key-value pairs, that are searchable by the key. It is a **very** useful data structure.
+
+It will be best to explain what it is good for, by showing how we can use it:
+
+
+---?code=class3/src/MainForHashMap.java&lang=java
+Maps are sometimes called dictionaries.
+
+
+
+---?code=class3/src/HashMap.java&lang=java
+@[1-7]
+@[9-22]
+ 
+
+
+
